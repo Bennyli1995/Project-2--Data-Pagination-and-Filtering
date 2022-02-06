@@ -105,7 +105,7 @@ function addPagination (list){
 
    // Whenever a button is clicked, that button becomes active and the rest of the status clears on the other buttons. 
    ul.addEventListener("click",(e)=>{
-      if (e.target.tagName = "BUTTON"){
+      if (e.target.tagName === "BUTTON"){
          let activeButton = e.target;
          // Loop through all of the buttons one by one 
          for (button of li){
